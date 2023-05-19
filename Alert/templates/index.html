@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  <title>Proyecto ProAlarm</title>
+</head>
+<body>
+  <header class="header">
+    <div class="u-wrapper">
+      <div class="header-content">
+        <img height="40" src="{% static 'images/iconod.png' %}" alt="">
+        <a href="/api">
+            <buttton class="btn primary">Entrar a la api</buttton>
+        </a>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="u-wrapper">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="{% static 'images/image.png' %}" alt="">
+        </div>
+        <div class="hero-description">
+          <h1 class="h1">
+            <span class="h3">¡Hola a todos!</span>
+            <span>Bienvenidos a ProAlarm</span>
+          </h1>
+          <p>Una proyecto...</p>
+          <div class="social">
+            <i class="social-item">
+              <img src="{% static 'images/icons/phone.svg' %}" alt="">
+            </i>
+            <i class="social-item">
+              <img src="{% static 'images/icons/envelope.svg' %}" alt="">
+            </i>
+            <i class="social-item">
+              <img src="{% static 'images/icons/instagram.svg' %}" alt="">
+            </i>
+            <i class="social-item">
+              <img src="{% static 'images/icons/twitter.svg' %}" alt="">
+            </i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pre-projects">
+    <div class="u-wrapper">
+      <div class="pre-projects-content">
+        <p>Este es un proyecto que esta integrado con Arduino, django, etc...</p>
+        <p >
+          Somos estudiantes de Tecsup - Cuarto Ciclo, de la carrera de diseño y desarrollo de software
+        </p>
+        <img src="images/icons/arrow-down.svg" alt="">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
